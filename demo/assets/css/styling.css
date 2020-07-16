@@ -1,0 +1,257 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #E6EAE8;
+}
+.top_bar{
+	width: 100%;
+	min-width: 1050px;
+	height: 50px;
+	background-color: #20aae5;
+	border-bottom: 0.25em solid #1894ca;
+	margin: -10px 0px 10px -8px;
+	display: inline-flex;
+	position: fixed;
+	z-index: 10;
+}
+
+.logo a{
+	font-family:  serif;
+	margin-left: 10px;
+	font-size: 29px;
+	position: relative;
+	top: 15px;
+	left: 5px;
+	color: #0f6286;
+}
+nav{
+	float: right;
+	right: 1px;
+	position: absolute;
+	margin: 10px;
+	top: 10px;
+}
+nav a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+}
+nav a:hover {
+	border-bottom: 7px solid #e67e22;
+}
+.tooltiptext{
+	font-size: 12px;
+	visibility: hidden;
+	width: 100px;
+	top: 30px;
+	right: 5px;
+	background-color:#fff ;
+	color:black; 
+	opacity: 0.7;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 0;
+  
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+nav a:hover .tooltiptext{
+	visibility: visible;
+}
+.wrapper{
+	background-image: url("../images/background/desktop.jpg");
+	background-size: 100%;
+	width:100%;
+	height: 650px;
+	min-width: 950px;
+}
+
+form{
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #3498db;
+}
+.creatClass_box{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 10%;
+	width: 35%;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 10px;
+	padding: 5px;
+	opacity: 0.88;
+}
+
+.creatClass_header, .joinClass_header{
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: #3498db; 
+	color: #fff;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	}
+.creatClass_header h1{
+		margin-top: 0;
+		margin-bottom: 0;
+		color:#2980b9;
+		text-shadow: #000 0.5px 0.5px 0pc;
+	}
+.joinClass_header h1{
+		margin-top: 0;
+		margin-bottom: 0;
+		color:#2980b9;
+		text-shadow: #000 0.5px 0.5px 0pc;
+	}
+input[type = "text"] {
+       border: 1px solid #e5e5e5;
+       margin-top: 5px;
+       width: 70%;
+       height: 35px;
+       margin-bottom: 10px;
+       padding-left: 5px; 
+	}
+	input[type = "text"]:hover{
+    border-color: #3498db;
+	}
+#second{
+		display: none;
+	}	
+
+.classBox,.teaching{
+	text-align: center;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 20%;
+	width: 15%;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 10px;
+	padding: 5px;
+	opacity: 0.88;
+	right: 400px;
+	}
+.EnrolledclassBox,.enrolled{
+    text-align: center;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+    top: 25%;
+	width: 15%;
+	left: 5%;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 10px;
+	padding: 5px;
+	opacity: 0.88;
+	right: 400px;
+
+}	
+
+
+.Wrapper2{
+	margin: 0 auto;
+	top: 60px;
+	position: relative;
+	padding: 0 10px;
+	width: 75%;
+	min-width: 950px;
+}
+.cloumn{
+	background-color:#fff;
+	padding: 10px;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #D3D3D3;
+	z-index: -1;
+}
+.user_details{
+	width: 97.6%;
+	float: left;
+	height: 150px;
+}
+
+.people_column{
+	width: 180px;
+	top: 200px;
+	background-color:#fff;
+	padding: 10px;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #D3D3D3;
+	z-index: -1;
+	float: left;
+	position: absolute;
+}
+
+.main_column{
+	width: 73%;
+	min-height: 150px;
+	top: 200px;
+	left: 24%;
+	background-color: #fff;
+	float: right;
+	padding: 8px;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #D3D3D3;
+	z-index: -1;
+	position: absolute;
+}
+.post_form {
+	width: 100%;
+}
+
+.post_form textarea {
+	width: 70%;
+	height: 80px;
+	border-radius: 3px;
+	margin-right: 20px;
+	border: 1px solid #D3D3D3;
+	font-size: 12px;
+	padding: 5px;
+}
+
+textarea:focus {
+	outline: 0;
+}
+
+.post_form input[type="submit"] {
+	width: 11%;
+	height: 70px;
+	border: none;
+	border-radius: 3px;
+	background-color: #3498db;
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	color: #1E75CA;
+	text-shadow: #73B6E2 0.5px 0.5px 0px;
+	font-size: 90%;
+	position: absolute;
+	outline: 0;
+	margin: 0;
+}
+
+.post_form input[type="submit"]:active {
+	padding: 5px 4px 4px 5px;
+}
+
+.status_post {
+	width: 96%;
+	font-size: 15px;
+	padding: 0px 5px;
+	min-height: 75px;
+}
+
+
+.post_profile_pic img {
+	border-radius: 5px;
+}
+
+
